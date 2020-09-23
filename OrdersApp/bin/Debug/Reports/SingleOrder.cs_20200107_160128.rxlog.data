@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="10af2f04c48b9ec0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="chandana"
+		rxversion="9.1.1.0"
+		host="MSDES15"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1680x1050"
+		timestamp="07-01-2020 16:01:31"
+		timestampiso="2020-01-07T10:31:31"
+		endtime="07-01-2020 16:01:48"
+		timeoutfactor="1"
+		module="SingleOrder">
+		<detail>
+			SingleOrder
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.745"
+			timeRelativeToTestModuleStartTime="00:06.745"
+			timeWallClock="16:01:37"
+			time="00:06.745"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>CustomerName, Street, City, State, Zip, Card, CardNum, Product, Start_Date, Start_Month, Start_Year, Expiration_Date, Expiration_Month, Expiration_Year
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.436"
+			timeRelativeToTestModuleStartTime="00:13.436"
+			timeWallClock="16:01:44"
+			time="00:13.436"
+			level="Info"
+			category="User">
+			<message>
+				Verified Succesfully :Bnglr
+			</message>
+			<metainfo
+				codefile="d:\Chandana_Workspace\Ranorex Documentation\OrdersApp\OrdersApp\SingleOrder.cs"
+				codeline="202"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

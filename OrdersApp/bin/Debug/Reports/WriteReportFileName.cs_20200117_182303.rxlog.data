@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="77581204f549b70"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="pavani"
+		rxversion="9.1.1.0"
+		host="MSDES09"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1680x1050"
+		timestamp="1/17/2020 6:23:06 PM"
+		timestampiso="2020-01-17T12:53:06"
+		endtime="1/17/2020 6:23:31 PM"
+		timeoutfactor="1"
+		module="WriteReportFileName">
+		<detail>
+			WriteReportFileName
+		</detail>
+		<errormessage>
+			The process cannot access the file 'F:\Ranorex\Ranorex\OrdersApp\OrdersApp\bin\Debug\ReportName.txt' because it is being used by another process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.989"
+			timeRelativeToTestModuleStartTime="00:04.989"
+			timeWallClock="18:23:11"
+			time="00:04.989"
+			level="Warn"
+			category="Data"
+			errimg="images_WriteRep_98592ed9\WriteRep_98592ed9_230ef37e_trace.jpg"
+			errthumb="images_WriteRep_98592ed9\WriteRep_98592ed9_230ef37e_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ReportName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.013"
+			timeRelativeToTestModuleStartTime="00:05.013"
+			timeWallClock="18:23:11"
+			time="00:05.013"
+			level="Info"
+			category="User"
+			errimg="images_WriteRep_98592ed9\WriteRep_98592ed9_230ef37e_trace.jpg"
+			errthumb="images_WriteRep_98592ed9\WriteRep_98592ed9_230ef37e_trace_thumb.jpg">
+			<message>
+				Project Directory Path: F:\Ranorex\Ranorex\OrdersApp\OrdersApp\bin\Debug
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\NewCustomTemplate1\WriteReportFileName.cs"
+				codeline="60"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.015"
+			timeRelativeToTestModuleStartTime="00:25.015"
+			timeWallClock="18:23:31"
+			time="00:25.015"
+			level="Info"
+			category="User"
+			errimg="images_WriteRep_98592ed9\WriteRep_98592ed9_0fa51219_trace.jpg"
+			errthumb="images_WriteRep_98592ed9\WriteRep_98592ed9_0fa51219_trace_thumb.jpg">
+			<message>
+				Project Directory Path: F:\Ranorex\Ranorex\OrdersApp\OrdersApp\bin\Debug\ReportName.txt
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\NewCustomTemplate1\WriteReportFileName.cs"
+				codeline="67"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.026"
+			timeRelativeToTestModuleStartTime="00:25.026"
+			timeWallClock="18:23:31"
+			time="00:25.026"
+			level="Error"
+			category="Module"
+			errimg="images_WriteRep_98592ed9\WriteRep_98592ed9_0fa51219_trace.jpg"
+			errthumb="images_WriteRep_98592ed9\WriteRep_98592ed9_0fa51219_trace_thumb.jpg">
+			<message>
+				The process cannot access the file 'F:\Ranorex\Ranorex\OrdersApp\OrdersApp\bin\Debug\ReportName.txt' because it is being used by another process.
+			</message>
+			<metainfo
+				stacktrace="   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at OrdersApp.NewCustomTemplate1.WriteReportFileName.Ranorex.Core.Testing.ITestModule.Run() in f:\Ranorex\Ranorex\OrdersApp\OrdersApp\NewCustomTemplate1\WriteReportFileName.cs:line 68
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\NewCustomTemplate1\WriteReportFileName.cs"
+				codeline="68"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

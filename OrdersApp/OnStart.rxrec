@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d28e2947-3dda-4e84-9f28-90ac76b9b322"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OnStart"
+	namespace="OrdersApp">
+	</codegen>
+	<variables>
+		<var
+		id="36794810-1352-429d-82a4-a64de3eeda4d"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Orders\MSVC\Release\Orders.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="30739bc5-b0b4-45e4-86e7-df2487851629"
+	name="OrdersAppRepository"
+	relativepath="OrdersAppRepository.rxrep">
+		<codegen
+		classname="OrdersAppRepository"
+		namespace="OrdersApp">
+		</codegen>
+		<rootfolder
+		id="9364e3d7-b3be-49e3-b76d-593ec4891f46"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OnStart.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

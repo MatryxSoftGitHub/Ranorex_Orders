@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e3aeb733a148cd2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Matryxsoft"
+		rxversion="9.1.1.0"
+		host="MSDES09"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1680x1050"
+		timestamp="12-11-2019 17:08:27"
+		timestampiso="2019-11-12T11:38:27"
+		endtime="12-11-2019 17:08:35"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.702"
+			timeRelativeToTestModuleStartTime="00:07.702"
+			timeWallClock="17:08:35"
+			time="00:07.702"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				The report file or directory could not be created. Cannot create &quot;C:\Users\Matryxsoft\Documents\Ranorex\RanorexStudio Projects\OrdersApp\OrdersApp\bin\Debug\OrdersApp.rxtst&quot; because a file or directory with the same name already exists.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Testing.TestSuiteRunner.SetUpReportFromTestSuite(RunParams rp, TestSuite testSuite, ReportLevel reportLevel, String customReportFileLocation)
+   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

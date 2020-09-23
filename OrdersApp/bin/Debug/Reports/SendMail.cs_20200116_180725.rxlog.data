@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="27.87s"
+		durationms="27867"
+		type="root"
+		rid="101c33f1ec5da6e0"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="pavani"
+		rxversion="9.1.1.0"
+		host="MSDES09"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1680x1050"
+		timestamp="1/16/2020 6:07:29 PM"
+		timestampiso="2020-01-16T12:37:29"
+		endtime="1/16/2020 6:07:57 PM"
+		timeoutfactor="1"
+		module="SendMailModule">
+		<detail>
+			SendMailModule
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.531"
+			timeRelativeToTestModuleStartTime="00:05.531"
+			timeWallClock="18:07:34"
+			time="00:05.531"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>To, From, Subject, ServerHostname, ServerPort, Message
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.105"
+			timeRelativeToTestModuleStartTime="00:06.105"
+			timeWallClock="18:07:35"
+			time="00:06.105"
+			level="Info"
+			category="User">
+			<message>
+				smtp :System.Net.Mail.SmtpClient
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs"
+				codeline="137"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.866"
+			timeRelativeToTestModuleStartTime="00:27.866"
+			timeWallClock="18:07:57"
+			time="00:27.866"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

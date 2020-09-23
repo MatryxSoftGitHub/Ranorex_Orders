@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.1m"
+		durationms="125310"
+		type="root"
+		rid="72df0666c7475f"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="pavani"
+		rxversion="9.1.1.0"
+		host="MSDES09"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1680x1050"
+		timestamp="1/17/2020 4:32:55 PM"
+		timestampiso="2020-01-17T11:02:55"
+		endtime="1/17/2020 4:35:08 PM"
+		timeoutfactor="1"
+		module="SendMailModule">
+		<detail>
+			SendMailModule
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.226"
+			timeRelativeToTestModuleStartTime="00:05.226"
+			timeWallClock="16:33:01"
+			time="00:05.226"
+			level="Warn"
+			category="Data"
+			errimg="images_SendMail_27a0dab3\SendMail_27a0dab3_87c61eee_trace.jpg"
+			errthumb="images_SendMail_27a0dab3\SendMail_27a0dab3_87c61eee_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>To, From, Subject, ServerHostname, ServerPort, Message
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:15.272"
+			timeRelativeToTestModuleStartTime="01:15.272"
+			timeWallClock="16:34:11"
+			time="01:15.272"
+			level="Info"
+			category="User"
+			errimg="images_SendMail_27a0dab3\SendMail_27a0dab3_f2f3b501_trace.jpg"
+			errthumb="images_SendMail_27a0dab3\SendMail_27a0dab3_f2f3b501_trace_thumb.jpg">
+			<message>
+				FileName: F:\Ranorex\Ranorex\OrdersApp\OrdersApp\bin\Debug\Reports
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs"
+				codeline="111"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:15.272"
+			timeRelativeToTestModuleStartTime="01:15.272"
+			timeWallClock="16:34:11"
+			time="01:15.272"
+			level="Info"
+			category="User"
+			errimg="images_SendMail_27a0dab3\SendMail_27a0dab3_f2f3b501_trace.jpg"
+			errthumb="images_SendMail_27a0dab3\SendMail_27a0dab3_f2f3b501_trace_thumb.jpg">
+			<message>
+				ReportName: SendMail.cs_20200117_163252
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs"
+				codeline="113"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="fd6c1f65ed9288a"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="pavani"
+		rxversion="9.1.1.0"
+		host="MSDES09"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1680x1050"
+		timestamp="1/16/2020 6:08:44 PM"
+		timestampiso="2020-01-16T12:38:44"
+		endtime="1/16/2020 6:10:30 PM"
+		timeoutfactor="1"
+		module="SendMailModule">
+		<detail>
+			SendMailModule
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.153"
+			timeRelativeToTestModuleStartTime="00:06.153"
+			timeWallClock="18:08:50"
+			time="00:06.153"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>To, From, Subject, ServerHostname, ServerPort, Message
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.706"
+			timeRelativeToTestModuleStartTime="00:06.706"
+			timeWallClock="18:08:50"
+			time="00:06.706"
+			level="Info"
+			category="User"
+			errimg="images_SendMail_2f8c1a1\SendMail_2f8c1a1_bc49a6df_trace.jpg"
+			errthumb="images_SendMail_2f8c1a1\SendMail_2f8c1a1_bc49a6df_trace_thumb.jpg">
+			<message>
+				smtp :System.Net.Mail.SmtpClient
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs"
+				codeline="137"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:46.729"
+			timeRelativeToTestModuleStartTime="01:46.729"
+			timeWallClock="18:10:30"
+			time="01:46.729"
+			level="Failure"
+			category="User"
+			errimg="images_SendMail_2f8c1a1\SendMail_2f8c1a1_ccde6d14_trace.jpg"
+			errthumb="images_SendMail_2f8c1a1\SendMail_2f8c1a1_ccde6d14_trace_thumb.jpg">
+			<message>
+				Mail Error: System.Net.Mail.SmtpException: The operation has timed out.<br/>   at System.Net.Mail.SmtpClient.Send(MailMessage message)<br/>   at Ranorex.Modules.SendMailModule.SendMail() in f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs:line 138
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs"
+				codeline="144"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:46.731"
+			timeRelativeToTestModuleStartTime="01:46.731"
+			timeWallClock="18:10:30"
+			time="01:46.731"
+			level="Error"
+			category="Module"
+			errimg="images_SendMail_2f8c1a1\SendMail_2f8c1a1_ccde6d14_trace.jpg"
+			errthumb="images_SendMail_2f8c1a1\SendMail_2f8c1a1_ccde6d14_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

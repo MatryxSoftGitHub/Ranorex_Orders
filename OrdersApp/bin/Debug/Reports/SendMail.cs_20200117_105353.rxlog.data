@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e59f1f1ebe14a33"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="pavani"
+		rxversion="9.1.1.0"
+		host="MSDES09"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1680x1050"
+		timestamp="1/17/2020 10:53:57 AM"
+		timestampiso="2020-01-17T05:23:57"
+		endtime="1/17/2020 10:54:11 AM"
+		timeoutfactor="1"
+		module="SendMailModule">
+		<detail>
+			SendMailModule
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.929"
+			timeRelativeToTestModuleStartTime="00:04.929"
+			timeWallClock="10:54:01"
+			time="00:04.929"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>To, From, Subject, ServerHostname, ServerPort, Message
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.474"
+			timeRelativeToTestModuleStartTime="00:05.474"
+			timeWallClock="10:54:02"
+			time="00:05.474"
+			level="Info"
+			category="User">
+			<message>
+				FileName: F:\Ranorex\Ranorex\OrdersApp\OrdersApp\bin\Debug\Reports\SendMail.cs_20200117_105353.rxlog
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs"
+				codeline="107"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.527"
+			timeRelativeToTestModuleStartTime="00:05.527"
+			timeWallClock="10:54:02"
+			time="00:05.527"
+			level="Info"
+			category="User">
+			<message>
+				smtp :System.Net.Mail.SmtpClient
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs"
+				codeline="127"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.756"
+			timeRelativeToTestModuleStartTime="00:14.756"
+			timeWallClock="10:54:11"
+			time="00:14.756"
+			level="Success"
+			category="User">
+			<message>
+				Email has been sent to 'pavani@matryxsoft.com'.
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs"
+				codeline="130"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,7 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "OrdersApp",
+    "RunConfig": "TestRun"
+  }
+]

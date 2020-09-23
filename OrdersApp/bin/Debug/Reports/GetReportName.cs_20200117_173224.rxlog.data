@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6eb28d722712e3a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="pavani"
+		rxversion="9.1.1.0"
+		host="MSDES09"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1680x1050"
+		timestamp="1/17/2020 5:32:27 PM"
+		timestampiso="2020-01-17T12:02:27"
+		endtime="1/17/2020 5:32:33 PM"
+		timeoutfactor="1"
+		module="GetReportName">
+		<detail>
+			GetReportName
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.190"
+			timeRelativeToTestModuleStartTime="00:06.190"
+			timeWallClock="17:32:33"
+			time="00:06.190"
+			level="Info"
+			category="User">
+			<message>
+				writeReportName: GetReportName.cs_20200117_173224
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\NewCustomTemplate1\GetReportName.cs"
+				codeline="51"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.204"
+			timeRelativeToTestModuleStartTime="00:06.204"
+			timeWallClock="17:32:33"
+			time="00:06.204"
+			level="Info"
+			category="User">
+			<message>
+				Project Directory Path: F:\Ranorex\Ranorex\OrdersApp\OrdersApp\bin\Debug
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\NewCustomTemplate1\GetReportName.cs"
+				codeline="53"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

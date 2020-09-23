@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="9554a7337a453f"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="pavani"
+		rxversion="9.1.1.0"
+		host="MSDES09"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1680x1050"
+		timestamp="1/16/2020 6:05:38 PM"
+		timestampiso="2020-01-16T12:35:38"
+		endtime="1/16/2020 6:05:53 PM"
+		timeoutfactor="1"
+		module="SendMailModule">
+		<detail>
+			SendMailModule
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.833"
+			timeRelativeToTestModuleStartTime="00:06.833"
+			timeWallClock="18:05:45"
+			time="00:06.833"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>To, From, Subject, ServerHostname, ServerPort, Message
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.405"
+			timeRelativeToTestModuleStartTime="00:07.405"
+			timeWallClock="18:05:45"
+			time="00:07.405"
+			level="Info"
+			category="User"
+			errimg="images_SendMail_d5b07a95\SendMail_d5b07a95_0e64cad1_trace.jpg"
+			errthumb="images_SendMail_d5b07a95\SendMail_d5b07a95_0e64cad1_trace_thumb.jpg">
+			<message>
+				smtp :System.Net.Mail.SmtpClient
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs"
+				codeline="137"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.820"
+			timeRelativeToTestModuleStartTime="00:14.820"
+			timeWallClock="18:05:53"
+			time="00:14.820"
+			level="Failure"
+			category="User"
+			errimg="images_SendMail_d5b07a95\SendMail_d5b07a95_b1f522fd_trace.jpg"
+			errthumb="images_SendMail_d5b07a95\SendMail_d5b07a95_b1f522fd_trace_thumb.jpg">
+			<message>
+				Mail Error: System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.<br/>   at System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, Exception exception)<br/>   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)<br/>   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)<br/>   at System.Net.TlsStream.CallProcessAuthentication(Object state)<br/>   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)<br/>   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)<br/>   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)<br/>   at System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)<br/>   at System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)<br/>   at System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)<br/>   at System.Net.Mail.SmtpConnection.Flush()<br/>   at System.Net.Mail.ReadLinesCommand.Send(SmtpConnection conn)<br/>   at System.Net.Mail.EHelloCommand.Send(SmtpConnection conn, String domain)<br/>   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)<br/>   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)<br/>   at System.Net.Mail.SmtpClient.GetConnection()<br/>   at System.Net.Mail.SmtpClient.Send(MailMessage message)<br/>   at Ranorex.Modules.SendMailModule.SendMail() in f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs:line 138
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs"
+				codeline="144"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.821"
+			timeRelativeToTestModuleStartTime="00:14.821"
+			timeWallClock="18:05:53"
+			time="00:14.821"
+			level="Error"
+			category="Module"
+			errimg="images_SendMail_d5b07a95\SendMail_d5b07a95_b1f522fd_trace.jpg"
+			errthumb="images_SendMail_d5b07a95\SendMail_d5b07a95_b1f522fd_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{980CD21F-5BD6-47E6-B152-AF42782662C1}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>OrdersApp</RootNamespace>
+    <AssemblyName>OrdersApp</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>b8c33a7e-1718-4e82-a193-ad4c56bfef14</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.PDF">
+      <HintPath>..\..\..\..\..\Downloads\Ranorex_PDF_Library\Ranorex.PDF.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>a5b1c616-4f5e-4a95-a686-85cd441b0a5f</id>
+    </Compile>
+    <Compile Include="Image_Comparission.cs">
+      <id>af524b3b-528c-4f2d-8da9-6a39fd00f04e</id>
+    </Compile>
+    <Compile Include="NewCustomTemplate1\GetReportName.cs">
+      <id>b35c4887-29af-41cb-b608-5ee0cba60f90</id>
+    </Compile>
+    <Compile Include="NewCustomTemplate1\WriteReportFileName.cs">
+      <id>1114ddb7-fe8c-4800-bb4d-8a7e4e909b63</id>
+    </Compile>
+    <Compile Include="OnFinish.cs">
+      <BoundTo>c41f7344-6854-4a14-90ae-fd5195b811a9</BoundTo>
+      <DependentUpon>OnFinish.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>35ba401e-3bcf-4c6c-8609-80f0530927d1</id>
+    </Compile>
+    <Compile Include="OnFinish.UserCode.cs">
+      <BoundTo>c41f7344-6854-4a14-90ae-fd5195b811a9</BoundTo>
+      <DependentUpon>OnFinish.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>997d6f2f-7b3f-4d1c-b7b5-404c52375917</id>
+    </Compile>
+    <Compile Include="Fetch_RandomRowValue.cs">
+      <id>78064b84-ed09-450e-b96f-7b02176406e0</id>
+    </Compile>
+    <Compile Include="SendMail.cs">
+      <id>236302ad-91b2-40d9-8aee-ee4d98a7c129</id>
+    </Compile>
+    <Compile Include="SingleOrder.cs">
+      <id>9399a568-4537-4205-85ac-92e6c312d2ec</id>
+    </Compile>
+    <Compile Include="Fetch_ParticularColumnValue.cs">
+      <id>2f5e440e-5e0c-495b-94b7-f883a96f2383</id>
+    </Compile>
+    <Compile Include="Fetch_ParticularRowValue.cs">
+      <id>55f1ed73-1b79-4ea7-9455-74df766c2301</id>
+    </Compile>
+    <Compile Include="Fetch_ColumnCount.cs">
+      <id>70693afa-dcb6-4095-b063-61810715c428</id>
+    </Compile>
+    <Compile Include="Fetch_RowCount.cs">
+      <id>1590e9ec-c09f-45cc-a679-dbf27c513829</id>
+    </Compile>
+    <Compile Include="Fetch_AllCellValues.cs">
+      <id>e4c9c7d4-ec3f-4407-b2f1-dd0fd728feb0</id>
+    </Compile>
+    <Compile Include="OrdersAppRepository.cs">
+      <BoundTo>b8c33a7e-1718-4e82-a193-ad4c56bfef14</BoundTo>
+      <DependentUpon>OrdersAppRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>ebdba06d-3029-4b74-98bc-8cb2cba93e76</id>
+    </Compile>
+    <Compile Include="PartialText.cs">
+      <id>77b029bb-f37e-4911-b142-3139a47e83af</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>e3edf8c5-4a0c-44a4-b0f7-ec4e48240e5c</id>
+    </Compile>
+    <Compile Include="ReportToPDF_7.X.cs">
+      <id>aaf2ad2d-a377-4721-9118-1339977e8e17</id>
+    </Compile>
+    <Compile Include="OnStart.cs">
+      <BoundTo>49be1ed1-ffac-4cc1-9fa2-2392e452ce15</BoundTo>
+      <DependentUpon>OnStart.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c0623362-f0fe-4067-b851-fc316510c095</id>
+    </Compile>
+    <Compile Include="OnStart.UserCode.cs">
+      <BoundTo>49be1ed1-ffac-4cc1-9fa2-2392e452ce15</BoundTo>
+      <DependentUpon>OnStart.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e6a081b6-5a55-4f65-965e-7091f056b923</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NewCustomTemplate1\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>97c18203-8539-48d9-935e-f062306e82df</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>5356a319-c34b-4791-9a18-8c287987ca03</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>9ab66909-2520-4d2e-92ae-7e44f4195ea8</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>b1f2a739-e392-4d75-a746-52ed0b1c1c8c</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>83b38e10-b5e2-4ab7-a726-8ac23adfb729</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>0fb45bf8-c9a6-42fa-b26d-4d75f70d2109</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>0c7fcc99-4b8b-4710-a58a-4ec94502ca0e</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>e2b931ba-3588-4cc6-97d0-e3e84c8f15d1</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>493827ee-6d38-4c39-9581-58cd11c64d03</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>1db38bdd-14e6-41a7-b02c-e697b26cfff6</id>
+    </Content>
+    <Content Include="NewCustomTemplate3\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>acefad45-23fd-4e10-8974-f2400b99e5a2</id>
+    </Content>
+    <Content Include="NewCustomTemplate3\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>61ba2763-fe2a-469a-abc5-0741a7d1baa5</id>
+    </Content>
+    <Content Include="NewCustomTemplate3\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>b8f96daf-503b-4299-a864-08bd8be36437</id>
+    </Content>
+    <Content Include="NewCustomTemplate3\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>66527def-8a8b-43eb-976b-786a8ffe370a</id>
+    </Content>
+    <Content Include="NewCustomTemplate3\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>740021ba-d461-4dfc-a540-a07620afb7e5</id>
+    </Content>
+    <None Include="app.config">
+      <id>a83f5ca5-cd9d-4105-9d4e-15824aa03dc2</id>
+    </None>
+    <None Include="OnFinish.rxrec">
+      <BoundTo>b8c33a7e-1718-4e82-a193-ad4c56bfef14</BoundTo>
+      <id>c41f7344-6854-4a14-90ae-fd5195b811a9</id>
+      <recordtableid>5e481d78-1118-417c-91a2-90d77bb3c618</recordtableid>
+    </None>
+    <Content Include="OrdersApp.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>0dd6ee1c-f012-4250-a41d-632292aea26a</id>
+    </Content>
+    <None Include="OrdersAppRepository.rximg">
+      <BoundTo>b8c33a7e-1718-4e82-a193-ad4c56bfef14</BoundTo>
+      <DependentUpon>OrdersAppRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>8a5d03f3-fbc5-419e-b79e-1652cf85c590</id>
+    </None>
+    <None Include="OrdersAppRepository.rxrep">
+      <id>b8c33a7e-1718-4e82-a193-ad4c56bfef14</id>
+      <repoid>30739bc5-b0b4-45e4-86e7-df2487851629</repoid>
+      <reporootid>9364e3d7-b3be-49e3-b76d-593ec4891f46</reporootid>
+    </None>
+    <None Include="OnStart.rxrec">
+      <BoundTo>b8c33a7e-1718-4e82-a193-ad4c56bfef14</BoundTo>
+      <id>49be1ed1-ffac-4cc1-9fa2-2392e452ce15</id>
+      <recordtableid>d28e2947-3dda-4e84-9f28-90ac76b9b322</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OrdersApp.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>a95a39da-61af-4aff-93e7-6d86a05fcb07</id>
+    </Content>
+    <Content Include="OrdersApp.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>c722bb9e-8656-4538-9915-7b3bebdd5d3b</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewCustomTemplate1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>7893dd5b-86ba-4203-a4d9-1bb9f055bc01</id>
+    </Folder>
+    <Folder Include="NewCustomTemplate2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>b30f3149-11cf-49f1-a4bf-9f0682d2f60e</id>
+    </Folder>
+    <Folder Include="NewCustomTemplate3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>3291b3b6-f0de-4285-ba57-80146f3e8e30</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

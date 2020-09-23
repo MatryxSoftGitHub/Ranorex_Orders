@@ -1,0 +1,473 @@
+﻿<repository
+id="30739bc5-b0b4-45e4-86e7-df2487851629"
+name="OrdersAppRepository">
+	<codegen
+	classname="OrdersAppRepository"
+	namespace="OrdersApp">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="9364e3d7-b3be-49e3-b76d-593ec4891f46"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="79a48627-8f67-4dec-8211-53438b0d81db"
+		isrooted="True"
+		name="OrdersApplication"
+		refpath="/form[@title='Untitled - Orders']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="7bbae93a-3cb2-414b-8043-255397cb0fa7"
+			name="Btn_Maximize"
+			refimgid="bbfb56ce-2e92-4b7b-bbe9-579806487c71"
+			refpath="/form[@title='Untitled - Orders']/titlebar/button[@accessiblename='Maximize']"
+			searchtimeout="30000ms">
+				/form[@title='Untitled - Orders']/?/?/button[@accessiblename='Maximize']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="3d172288-57a7-425a-b28c-e127d0077700"
+			name="Orders"
+			refimgid="1be9bf17-f75d-4a47-ab7b-43bbcfede399"
+			refpath="/form[@title='Untitled - Orders']/menubar[@accessiblename='Application']/menuitem[@accessiblename='Orders']"
+			searchtimeout="30000ms">
+				/form[@title='Untitled - Orders']/?/?/menuitem[@accessiblename='Orders']
+			</item>
+			<item
+			addcaps="table,nativewindow"
+			capname="table"
+			id="47bf6d55-4d3a-48eb-a594-28b9b3cf7974"
+			name="List_View"
+			refimgid="ab951b00-32b0-4022-aae1-8e309f2b35db"
+			refpath="/form[@title='Untitled - Orders']/table[@controlid='59648']"
+			searchtimeout="30000ms">
+				/form[@title='Untitled - Orders']/table[@controlid='59648']
+			</item>
+			<basepath>
+				/form[@title='Untitled - Orders']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACSSURBVDhPhY+BEoAgCEP99P7cAjdSmMrd63Rj
+q1prT9/TgPKIFh3OuagKiNXRJf4wE0Isqi8w7E68gAeIFmCohFkw7f8HMIe3BQZLQgBz6FhgxC+Q
+tCwLjDUD0dbHxOJ8Vr5nIarJwTwsGW9yacz/hg+7A87iu8lLMZOmfBdJMT92enBbuBZoceXyhT7Z
+yKP93l+HN+BC0RAlDgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="contextmenu,nativewindow"
+		capname="contextmenu"
+		id="0cc29327-377f-45f6-a245-4d0d4b4f7544"
+		isrooted="True"
+		name="Orders"
+		refpath="/contextmenu[@processname='Orders']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="8aa414f6-824a-450b-ad0a-6e817c05bc64"
+			name="New_Order"
+			refimgid="a2d04e4d-92bd-4407-832b-bddda72de246"
+			refpath="/contextmenu[@processname='Orders']/contextmenu/menuitem[@accessiblename='New order...Ctrl+Ins']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Orders']/?/?/menuitem[@accessiblename='New order...Ctrl+Ins']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="13201f76-d29c-4345-aaf4-13ff30690cfb"
+			name="OpenCtrlPlusO"
+			refimgid="b89b9881-8507-4a11-bba1-76d2ccf27132"
+			refpath="/contextmenu[@processname='Orders']/contextmenu/menuitem[@accessiblename='Open...Ctrl+O']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Orders']/?/?/menuitem[@accessiblename='Open...Ctrl+O']
+			</item>
+			<basepath>
+				/contextmenu[@processname='Orders']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="64bb8a49-d3bd-4c4d-9919-b430cdb35910"
+		isrooted="True"
+		name="NewOrder"
+		refpath="/form[@title='New order']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="list,accessible"
+			capname="rawtext"
+			id="11dd8829-54e3-4daa-9c9d-c3e5e7eab5cb"
+			name="sStartDate_Date"
+			refimgid="9f71b832-a1eb-40c4-8aa5-527aeb1c0cac"
+			searchtimeout="30000ms">
+				/form[@title='New order']/element[@controlid='1003']/rawtext[@rawtext~'.$'][1]
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="5fcce0e8-1e4d-4d75-9d70-93499ed2a85c"
+			name="sCustomerName"
+			refimgid="c650ea3a-b97e-4cbd-9f60-b6f063d1c649"
+			searchtimeout="30000ms">
+				/form[@title='New order']/text[@controlid='1006']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="3c349cea-0fb8-4f9b-af6c-ae772086f2f2"
+			name="sStreet"
+			refimgid="65f4e735-82e8-4b67-a2d2-0e41ea7f5d78"
+			searchtimeout="30000ms">
+				/form[@title='New order']/text[@controlid='1007']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="3aaa7253-ebcf-4f0b-a789-30f93a4ef44b"
+			name="sCity"
+			refimgid="fc301d0e-db86-48dd-a8e7-1e6ccd35b306"
+			refpath="/form[@title='New order']/text[@controlid='1008']"
+			searchtimeout="30000ms">
+				/form[@title='New order']/text[@controlid='1008']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="5ced3a66-d5e0-4092-ac62-05a320684c3d"
+			name="sState"
+			refimgid="971bbf3e-d791-4855-81ef-341a4c0980df"
+			refpath="/form[@title='New order']/text[@controlid='1009']"
+			searchtimeout="30000ms">
+				/form[@title='New order']/text[@controlid='1009']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="f99322e3-72e5-4ae2-9840-a316246ad575"
+			name="sZip"
+			refimgid="935bd68a-cd65-4456-8fb4-95aef211cd42"
+			refpath="/form[@title='New order']/text[@controlid='1010']"
+			searchtimeout="30000ms">
+				/form[@title='New order']/text[@controlid='1010']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="7bebf207-b001-4845-91ac-ee0a119c551d"
+			name="sCardNum"
+			refimgid="18ca0b5f-66bd-40f6-99f4-bf009fad7c7b"
+			refpath="/form[@title='New order']/text[@controlid='1011']"
+			searchtimeout="30000ms">
+				/form[@title='New order']/text[@controlid='1011']
+			</item>
+			<item
+			addcaps="list,accessible"
+			capname="rawtext"
+			id="9d4a0ddf-f372-4569-a82f-7d50086394b2"
+			name="sExpirationDate_Date"
+			refimgid="f3de9bf5-bcdc-4003-abd2-afac0ecac8d6"
+			searchtimeout="30000ms">
+				/form[@title='New order']/element[@controlid='1015']/rawtext[@rawtext~'.$'][1]
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="097dca36-3c02-4acc-9b65-1a4546aa2801"
+			name="Btn_OK"
+			refimgid="6fc0bf4f-6e69-44be-9e79-27f212e77e62"
+			refpath="/form[@title='New order']/button[@text='OK']"
+			searchtimeout="30000ms">
+				/form[@title='New order']/button[@text='OK']
+			</item>
+			<item
+			addcaps="unknown,rawtext"
+			capname="rawtext"
+			id="1340a1ce-542e-4a13-9180-b3debd8387b4"
+			name="sStartDate_Month"
+			refimgid="41ec097c-fdba-4860-b597-dcb003827f51"
+			searchtimeout="30000ms">
+				/form[@title='New order']/element[@controlid='1003']/rawtext[@rawtext~'[0-12]'][2]
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="e3a3fb98-c791-4fa3-b1c2-cd6b64c6f9a0"
+			name="Cbo_ProductType"
+			refimgid="3836a043-01d7-402c-9023-df14b1df3031"
+			refpath="/form[@title='New order']/combobox[@controlid='1000']"
+			searchtimeout="30000ms">
+				/form[@title='New order']/combobox[@controlid='1000']
+			</item>
+			<item
+			addcaps="unknown,rawtext"
+			capname="rawtext"
+			id="1887b0cd-cc02-4ac8-8c9a-63b6e092cefc"
+			name="sStartDate_Year"
+			refimgid="649de627-3a15-4659-8726-d7a48b4c6402"
+			searchtimeout="30000ms">
+				/form[@title='New order']/element[@controlid='1003']/rawtext[@rawtext~'....']
+			</item>
+			<item
+			addcaps="unknown,rawtext"
+			capname="rawtext"
+			id="49a3ba4a-6acc-4e8c-88b8-d5252f5472bc"
+			name="sExpirationDate_Month"
+			refimgid="a54622bb-10f4-4ecc-8453-fe77020a2ac0"
+			searchtimeout="30000ms">
+				/form[@title='New order']/element[@controlid='1015']/rawtext[@rawtext~'[0-12]'][2]
+			</item>
+			<item
+			addcaps="unknown,rawtext"
+			capname="rawtext"
+			id="a2e0396a-fb41-44af-a9de-0fe136f04069"
+			name="sExpirationDate_Year"
+			refimgid="9ad99b76-e1d5-4252-b550-c7e92adf0cd0"
+			searchtimeout="30000ms">
+				/form[@title='New order']/element[@controlid='1015']/rawtext[@rawtext~'....']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="32c6edf1-7b62-48f7-8d12-747ae1a8f201"
+			name="Rbtn_VISA"
+			refimgid="3ace135a-7941-4e28-b48f-d08213996cac"
+			searchtimeout="30000ms">
+				/form[@title='New order']/radiobutton[@text='VISA']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="462939b4-9eae-44fb-a3f1-84fa8943b688"
+			name="Rbtn_MasterCard"
+			refimgid="7e702da9-5dc3-45fb-8677-4804ab2fb801"
+			searchtimeout="30000ms">
+				/form[@title='New order']/radiobutton[@text='Master Card']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="b3495efc-e483-43fe-876d-bb55644b1ffc"
+			name="Rbtn_AmericanExpress"
+			refimgid="88ee216d-236a-49de-a0f2-be45ce02c1eb"
+			refpath="/form[@title='New order']/radiobutton[@text='American Express']"
+			searchtimeout="30000ms">
+				/form[@title='New order']/radiobutton[@text='American Express']
+			</item>
+			<basepath>
+				/form[@title='New order']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACSSURBVDhPhY+BEoAgCEP99P7cAjdSmMrd63Rj
+q1prT9/TgPKIFh3OuagKiNXRJf4wE0Isqi8w7E68gAeIFmCohFkw7f8HMIe3BQZLQgBz6FhgxC+Q
+tCwLjDUD0dbHxOJ8Vr5nIarJwTwsGW9yacz/hg+7A87iu8lLMZOmfBdJMT92enBbuBZoceXyhT7Z
+yKP93l+HN+BC0RAlDgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="list,nativewindow"
+		capname="list"
+		id="b82df9eb-7858-4364-ae26-58c94ea26993"
+		isrooted="True"
+		name="SelectProduct"
+		refpath="/list[@controlid='1000']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="fa5ddae6-c29c-4219-b54e-12ffc77db434"
+			name="Product"
+			refimgid="23e2baf7-1925-4c3d-979f-7342a9a3bd16"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text=$Product]
+			</item>
+			<basepath>
+				/list[@controlid='1000']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJN
+AACHDwAAjA8AAP1SAACBQAAAfXkAAOmLAAA85QAAGcxzPIV3AAAKOWlDQ1BQaG90b3Nob3AgSUND
+IHByb2ZpbGUAAEjHnZZ3VFTXFofPvXd6oc0wAlKG3rvAANJ7k15FYZgZYCgDDjM0sSGiAhFFRJoi
+SFDEgNFQJFZEsRAUVLAHJAgoMRhFVCxvRtaLrqy89/Ly++Osb+2z97n77L3PWhcAkqcvl5cGSwGQ
+yhPwgzyc6RGRUXTsAIABHmCAKQBMVka6X7B7CBDJy82FniFyAl8EAfB6WLwCcNPQM4BOB/+fpFnp
+fIHomAARm7M5GSwRF4g4JUuQLrbPipgalyxmGCVmvihBEcuJOWGRDT77LLKjmNmpPLaIxTmns1PZ
+Yu4V8bZMIUfEiK+ICzO5nCwR3xKxRoowlSviN+LYVA4zAwAUSWwXcFiJIjYRMYkfEuQi4uUA4EgJ
+X3HcVyzgZAvEl3JJS8/hcxMSBXQdli7d1NqaQffkZKVwBALDACYrmcln013SUtOZvBwAFu/8WTLi
+2tJFRbY0tba0NDQzMv2qUP91829K3NtFehn4uWcQrf+L7a/80hoAYMyJarPziy2uCoDOLQDI3fti
+0zgAgKSobx3Xv7oPTTwviQJBuo2xcVZWlhGXwzISF/QP/U+Hv6GvvmckPu6P8tBdOfFMYYqALq4b
+Ky0lTcinZ6QzWRy64Z+H+B8H/nUeBkGceA6fwxNFhImmjMtLELWbx+YKuGk8Opf3n5r4D8P+pMW5
+FonS+BFQY4yA1HUqQH7tBygKESDR+8Vd/6NvvvgwIH554SqTi3P/7zf9Z8Gl4iWDm/A5ziUohM4S
+8jMX98TPEqABAUgCKpAHykAd6ABDYAasgC1wBG7AG/iDEBAJVgMWSASpgA+yQB7YBApBMdgJ9oBq
+UAcaQTNoBcdBJzgFzoNL4Bq4AW6D+2AUTIBnYBa8BgsQBGEhMkSB5CEVSBPSh8wgBmQPuUG+UBAU
+CcVCCRAPEkJ50GaoGCqDqqF6qBn6HjoJnYeuQIPQXWgMmoZ+h97BCEyCqbASrAUbwwzYCfaBQ+BV
+cAK8Bs6FC+AdcCXcAB+FO+Dz8DX4NjwKP4PnEIAQERqiihgiDMQF8UeikHiEj6xHipAKpAFpRbqR
+PuQmMorMIG9RGBQFRUcZomxRnqhQFAu1BrUeVYKqRh1GdaB6UTdRY6hZ1Ec0Ga2I1kfboL3QEegE
+dBa6EF2BbkK3oy+ib6Mn0K8xGAwNo42xwnhiIjFJmLWYEsw+TBvmHGYQM46Zw2Kx8lh9rB3WH8vE
+CrCF2CrsUexZ7BB2AvsGR8Sp4Mxw7rgoHA+Xj6vAHcGdwQ3hJnELeCm8Jt4G749n43PwpfhGfDf+
+On4Cv0CQJmgT7AghhCTCJkIloZVwkfCA8JJIJKoRrYmBRC5xI7GSeIx4mThGfEuSIemRXEjRJCFp
+B+kQ6RzpLuklmUzWIjuSo8gC8g5yM/kC+RH5jQRFwkjCS4ItsUGiRqJDYkjiuSReUlPSSXK1ZK5k
+heQJyeuSM1J4KS0pFymm1HqpGqmTUiNSc9IUaVNpf+lU6RLpI9JXpKdksDJaMm4ybJkCmYMyF2TG
+KQhFneJCYVE2UxopFykTVAxVm+pFTaIWU7+jDlBnZWVkl8mGyWbL1sielh2lITQtmhcthVZKO04b
+pr1borTEaQlnyfYlrUuGlszLLZVzlOPIFcm1yd2WeydPl3eTT5bfJd8p/1ABpaCnEKiQpbBf4aLC
+zFLqUtulrKVFS48vvacIK+opBimuVTyo2K84p6Ss5KGUrlSldEFpRpmm7KicpFyufEZ5WoWiYq/C
+VSlXOavylC5Ld6Kn0CvpvfRZVUVVT1Whar3qgOqCmrZaqFq+WpvaQ3WCOkM9Xr1cvUd9VkNFw08j
+T6NF454mXpOhmai5V7NPc15LWytca6tWp9aUtpy2l3audov2Ax2yjoPOGp0GnVu6GF2GbrLuPt0b
+erCehV6iXo3edX1Y31Kfq79Pf9AAbWBtwDNoMBgxJBk6GWYathiOGdGMfI3yjTqNnhtrGEcZ7zLu
+M/5oYmGSYtJoct9UxtTbNN+02/R3Mz0zllmN2S1zsrm7+QbzLvMXy/SXcZbtX3bHgmLhZ7HVosfi
+g6WVJd+y1XLaSsMq1qrWaoRBZQQwShiXrdHWztYbrE9Zv7WxtBHYHLf5zdbQNtn2iO3Ucu3lnOWN
+y8ft1OyYdvV2o/Z0+1j7A/ajDqoOTIcGh8eO6o5sxybHSSddpySno07PnU2c+c7tzvMuNi7rXM65
+Iq4erkWuA24ybqFu1W6P3NXcE9xb3Gc9LDzWepzzRHv6eO7yHPFS8mJ5NXvNelt5r/Pu9SH5BPtU
++zz21fPl+3b7wX7efrv9HqzQXMFb0ekP/L38d/s/DNAOWBPwYyAmMCCwJvBJkGlQXlBfMCU4JvhI
+8OsQ55DSkPuhOqHC0J4wybDosOaw+XDX8LLw0QjjiHUR1yIVIrmRXVHYqLCopqi5lW4r96yciLaI
+LoweXqW9KnvVldUKq1NWn46RjGHGnIhFx4bHHol9z/RnNjDn4rziauNmWS6svaxnbEd2OXuaY8cp
+40zG28WXxU8l2CXsTphOdEisSJzhunCruS+SPJPqkuaT/ZMPJX9KCU9pS8Wlxqae5Mnwknm9acpp
+2WmD6frphemja2zW7Fkzy/fhN2VAGasyugRU0c9Uv1BHuEU4lmmfWZP5Jiss60S2dDYvuz9HL2d7
+zmSue+63a1FrWWt78lTzNuWNrXNaV78eWh+3vmeD+oaCDRMbPTYe3kTYlLzpp3yT/LL8V5vDN3cX
+KBVsLBjf4rGlpVCikF84stV2a9021DbutoHt5turtn8sYhddLTYprih+X8IqufqN6TeV33zaEb9j
+oNSydP9OzE7ezuFdDrsOl0mX5ZaN7/bb3VFOLy8qf7UnZs+VimUVdXsJe4V7Ryt9K7uqNKp2Vr2v
+Tqy+XeNc01arWLu9dn4fe9/Qfsf9rXVKdcV17w5wD9yp96jvaNBqqDiIOZh58EljWGPft4xvm5sU
+moqbPhziHRo9HHS4t9mqufmI4pHSFrhF2DJ9NProje9cv+tqNWytb6O1FR8Dx4THnn4f+/3wcZ/j
+PScYJ1p/0Pyhtp3SXtQBdeR0zHYmdo52RXYNnvQ+2dNt293+o9GPh06pnqo5LXu69AzhTMGZT2dz
+z86dSz83cz7h/HhPTM/9CxEXbvUG9g5c9Ll4+ZL7pQt9Tn1nL9tdPnXF5srJq4yrndcsr3X0W/S3
+/2TxU/uA5UDHdavrXTesb3QPLh88M+QwdP6m681Lt7xuXbu94vbgcOjwnZHokdE77DtTd1PuvriX
+eW/h/sYH6AdFD6UeVjxSfNTws+7PbaOWo6fHXMf6Hwc/vj/OGn/2S8Yv7ycKnpCfVEyqTDZPmU2d
+mnafvvF05dOJZ+nPFmYKf5X+tfa5zvMffnP8rX82YnbiBf/Fp99LXsq/PPRq2aueuYC5R69TXy/M
+F72Rf3P4LeNt37vwd5MLWe+x7ys/6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAAOxAAA
+DsQBlSsOGwAAAKlJREFUOE9j+P//P0WYYc/Rq/+3Hbj4f+Pu80A+QgKXOAgjizNs3nsBxPhv6pkM
+xiBBEMYnDmIcOHAALM6watspkCQYICvEL84A5oANWLz+KJgBwzCFuMRBGFkMLkguZmicuOp/UfO8
+/+lVU8EYJkGsOIpp5GCsgqRgMEFqOkDGGPEKk8CVDtAxRrzCJHClA3QMJrDZgi8dIGOsgqRgktMB
+OsYqSDz+zwAAaK/nDj2T/r4AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="c9783772-322b-47d8-9fc5-5f0e72af670d"
+		isrooted="True"
+		name="Orders_SaveDilog"
+		refpath="/form[@title='Orders']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="54c851cb-db53-499a-b41a-7d9d9fd0df4c"
+			name="Btn_No"
+			refimgid="409f6ea2-e701-4b02-9edd-59c35b8f38c4"
+			refpath="/form[@title='Orders']/button[@text='&amp;No']"
+			searchtimeout="30000ms">
+				/form[@title='Orders']/button[@text='&amp;No']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="980ea604-e9fc-4a7e-aefd-f084ebcf1fe9"
+			name="Btn_Yes"
+			refimgid="90b9ea0d-34a6-4633-aede-61d040dc9bcb"
+			refpath="/form[@title='Orders']/button[@text='&amp;Yes']"
+			searchtimeout="30000ms">
+				/form[@title='Orders']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='Orders']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACSSURBVDhPhY+BEoAgCEP99P7cAjdSmMrd63Rj
+q1prT9/TgPKIFh3OuagKiNXRJf4wE0Isqi8w7E68gAeIFmCohFkw7f8HMIe3BQZLQgBz6FhgxC+Q
+tCwLjDUD0dbHxOJ8Vr5nIarJwTwsGW9yacz/hg+7A87iu8lLMZOmfBdJMT92enBbuBZoceXyhT7Z
+yKP93l+HN+BC0RAlDgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="ae6a88aa-f041-487e-8781-251713f8bdf4"
+		name="Card">
+			VISA
+		</var>
+		<var
+		id="203a17ff-6160-4ec8-a0a1-acf147b80854"
+		name="Product">
+			FamilyAlbum
+		</var>
+		<var
+		id="47b5641e-7974-482a-af37-5ada48aaae77"
+		name="Date">
+			24
+		</var>
+		<var
+		id="5dff2f0c-f53c-41fd-84e7-cbf245541c76"
+		name="C_Variable">
+			gbr
+		</var>
+	</variables>
+</repository>

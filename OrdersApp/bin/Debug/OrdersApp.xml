@@ -1,0 +1,757 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OrdersApp</name>
+    </assembly>
+    <members>
+        <member name="T:OrdersApp.Image_Comparission">
+            <summary>
+            Description of Image_Comparission.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.Image_Comparission.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.Image_Comparission.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:OrdersApp.NewCustomTemplate1.GetReportName">
+            <summary>
+            Description of GetReportName.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.NewCustomTemplate1.GetReportName.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.NewCustomTemplate1.GetReportName.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:OrdersApp.NewCustomTemplate1.WriteReportFileName">
+            <summary>
+            Description of WriteReportFileName.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.NewCustomTemplate1.WriteReportFileName.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.NewCustomTemplate1.WriteReportFileName.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:OrdersApp.OnFinish">
+             <summary>
+            The OnFinish recording.
+             </summary>
+        </member>
+        <member name="F:OrdersApp.OnFinish.repo">
+            <summary>
+            Holds an instance of the OrdersAppRepository repository.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.OnFinish.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.OnFinish.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:OrdersApp.OnFinish.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.OnFinish.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:OrdersApp.OnFinish.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OnFinish.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OnFinish.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="T:OrdersApp.Fetch_RandomRowValue">
+            <summary>
+            Description of Random_RowValue.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.Fetch_RandomRowValue.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.Fetch_RandomRowValue.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Ranorex.Modules.SendMailModule">
+            <summary>
+            Use this module at any position of your test suite to get informed about test runs by email.
+            This is especially useful for overnight test executions on runtime machines.
+            </summary>
+        </member>
+        <member name="M:Ranorex.Modules.SendMailModule.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="T:OrdersApp.SingleOrder">
+            <summary>
+            Description of CodeModule_Orders.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.SingleOrder.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.SingleOrder.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:OrdersApp.Fetch_ParticularColumnValue">
+            <summary>
+            Description of FetchAllColumnValues.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.Fetch_ParticularColumnValue.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.Fetch_ParticularColumnValue.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:OrdersApp.Fetch_ParticularRowValue">
+            <summary>
+            Description of FetchAllRowValues.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.Fetch_ParticularRowValue.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.Fetch_ParticularRowValue.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:OrdersApp.Fetch_ColumnCount">
+            <summary>
+            Description of Fetch_ColumnCount.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.Fetch_ColumnCount.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.Fetch_ColumnCount.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:OrdersApp.Fetch_RowCount">
+            <summary>
+            Description of Fetch_RowsCount.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.Fetch_RowCount.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.Fetch_RowCount.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:OrdersApp.Fetch_AllCellValues">
+            <summary>
+            Description of ListView_RowCount_ColoumnCount.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.Fetch_AllCellValues.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.Fetch_AllCellValues.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:OrdersApp.OrdersAppRepository">
+            <summary>
+            The class representing the OrdersAppRepository element repository.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.OrdersAppRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the OrdersAppRepository element repository.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepository.Card">
+            <summary>
+            Gets or sets the value of variable Card.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepository.Product">
+            <summary>
+            Gets or sets the value of variable Product.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepository.Date">
+            <summary>
+            Gets or sets the value of variable Date.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepository.C_Variable">
+            <summary>
+            Gets or sets the value of variable C_Variable.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepository.OrdersApplication">
+            <summary>
+            The OrdersApplication folder.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepository.Orders">
+            <summary>
+            The Orders folder.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepository.NewOrder">
+            <summary>
+            The NewOrder folder.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepository.SelectProduct">
+            <summary>
+            The SelectProduct folder.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepository.Orders_SaveDilog">
+            <summary>
+            The Orders_SaveDilog folder.
+            </summary>
+        </member>
+        <member name="T:OrdersApp.OrdersAppRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:OrdersApp.OrdersAppRepositoryFolders.OrdersApplicationAppFolder">
+            <summary>
+            The OrdersApplicationAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.OrdersAppRepositoryFolders.OrdersApplicationAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new OrdersApplication  folder.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.OrdersApplicationAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.OrdersApplicationAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.OrdersApplicationAppFolder.Btn_Maximize">
+            <summary>
+            The Btn_Maximize item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.OrdersApplicationAppFolder.Btn_MaximizeInfo">
+            <summary>
+            The Btn_Maximize item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.OrdersApplicationAppFolder.Orders">
+            <summary>
+            The Orders item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.OrdersApplicationAppFolder.OrdersInfo">
+            <summary>
+            The Orders item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.OrdersApplicationAppFolder.List_View">
+            <summary>
+            The List_View item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.OrdersApplicationAppFolder.List_ViewInfo">
+            <summary>
+            The List_View item info.
+            </summary>
+        </member>
+        <member name="T:OrdersApp.OrdersAppRepositoryFolders.OrdersAppFolder">
+            <summary>
+            The OrdersAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.OrdersAppRepositoryFolders.OrdersAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Orders  folder.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.OrdersAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.OrdersAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.OrdersAppFolder.New_Order">
+            <summary>
+            The New_Order item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.OrdersAppFolder.New_OrderInfo">
+            <summary>
+            The New_Order item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.OrdersAppFolder.OpenCtrlPlusO">
+            <summary>
+            The OpenCtrlPlusO item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.OrdersAppFolder.OpenCtrlPlusOInfo">
+            <summary>
+            The OpenCtrlPlusO item info.
+            </summary>
+        </member>
+        <member name="T:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder">
+            <summary>
+            The NewOrderAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NewOrder  folder.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sStartDate_Date">
+            <summary>
+            The sStartDate_Date item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sStartDate_DateInfo">
+            <summary>
+            The sStartDate_Date item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sCustomerName">
+            <summary>
+            The sCustomerName item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sCustomerNameInfo">
+            <summary>
+            The sCustomerName item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sStreet">
+            <summary>
+            The sStreet item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sStreetInfo">
+            <summary>
+            The sStreet item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sCity">
+            <summary>
+            The sCity item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sCityInfo">
+            <summary>
+            The sCity item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sState">
+            <summary>
+            The sState item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sStateInfo">
+            <summary>
+            The sState item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sZip">
+            <summary>
+            The sZip item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sZipInfo">
+            <summary>
+            The sZip item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sCardNum">
+            <summary>
+            The sCardNum item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sCardNumInfo">
+            <summary>
+            The sCardNum item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sExpirationDate_Date">
+            <summary>
+            The sExpirationDate_Date item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sExpirationDate_DateInfo">
+            <summary>
+            The sExpirationDate_Date item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.Btn_OK">
+            <summary>
+            The Btn_OK item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.Btn_OKInfo">
+            <summary>
+            The Btn_OK item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sStartDate_Month">
+            <summary>
+            The sStartDate_Month item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sStartDate_MonthInfo">
+            <summary>
+            The sStartDate_Month item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.Cbo_ProductType">
+            <summary>
+            The Cbo_ProductType item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.Cbo_ProductTypeInfo">
+            <summary>
+            The Cbo_ProductType item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sStartDate_Year">
+            <summary>
+            The sStartDate_Year item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sStartDate_YearInfo">
+            <summary>
+            The sStartDate_Year item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sExpirationDate_Month">
+            <summary>
+            The sExpirationDate_Month item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sExpirationDate_MonthInfo">
+            <summary>
+            The sExpirationDate_Month item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sExpirationDate_Year">
+            <summary>
+            The sExpirationDate_Year item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.sExpirationDate_YearInfo">
+            <summary>
+            The sExpirationDate_Year item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.Rbtn_VISA">
+            <summary>
+            The Rbtn_VISA item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.Rbtn_VISAInfo">
+            <summary>
+            The Rbtn_VISA item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.Rbtn_MasterCard">
+            <summary>
+            The Rbtn_MasterCard item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.Rbtn_MasterCardInfo">
+            <summary>
+            The Rbtn_MasterCard item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.Rbtn_AmericanExpress">
+            <summary>
+            The Rbtn_AmericanExpress item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.NewOrderAppFolder.Rbtn_AmericanExpressInfo">
+            <summary>
+            The Rbtn_AmericanExpress item info.
+            </summary>
+        </member>
+        <member name="T:OrdersApp.OrdersAppRepositoryFolders.SelectProductAppFolder">
+            <summary>
+            The SelectProductAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.OrdersAppRepositoryFolders.SelectProductAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SelectProduct  folder.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.SelectProductAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.SelectProductAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.SelectProductAppFolder.Product">
+            <summary>
+            The Product item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.SelectProductAppFolder.ProductInfo">
+            <summary>
+            The Product item info.
+            </summary>
+        </member>
+        <member name="T:OrdersApp.OrdersAppRepositoryFolders.Orders_SaveDilogAppFolder">
+            <summary>
+            The Orders_SaveDilogAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.OrdersAppRepositoryFolders.Orders_SaveDilogAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Orders_SaveDilog  folder.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.Orders_SaveDilogAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.Orders_SaveDilogAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.Orders_SaveDilogAppFolder.Btn_No">
+            <summary>
+            The Btn_No item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.Orders_SaveDilogAppFolder.Btn_NoInfo">
+            <summary>
+            The Btn_No item info.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.Orders_SaveDilogAppFolder.Btn_Yes">
+            <summary>
+            The Btn_Yes item.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OrdersAppRepositoryFolders.Orders_SaveDilogAppFolder.Btn_YesInfo">
+            <summary>
+            The Btn_Yes item info.
+            </summary>
+        </member>
+        <member name="T:OrdersApp.PartialText">
+            <summary>
+            Description of PartialText.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.PartialText.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.PartialText.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:ReportToPDF.ReportToPDF">
+            <summary>
+            Allows conversion of Ranorex report files to PDF
+            </summary>
+        </member>
+        <member name="M:ReportToPDF.ReportToPDF.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ReportToPDF.ReportToPDF.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:OrdersApp.OnStart">
+             <summary>
+            The OnStart recording.
+             </summary>
+        </member>
+        <member name="F:OrdersApp.OnStart.repo">
+            <summary>
+            Holds an instance of the OrdersAppRepository repository.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.OnStart.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.OnStart.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:OrdersApp.OnStart.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:OrdersApp.OnStart.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:OrdersApp.OnStart.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OnStart.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:OrdersApp.OnStart.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

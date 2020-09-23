@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7cfe7533df4f892"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="pavani"
+		rxversion="9.1.1.0"
+		host="MSDES09"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1680x1050"
+		timestamp="1/17/2020 6:24:42 PM"
+		timestampiso="2020-01-17T12:54:42"
+		endtime="1/17/2020 6:24:48 PM"
+		timeoutfactor="1"
+		module="WriteReportFileName">
+		<detail>
+			WriteReportFileName
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.401"
+			timeRelativeToTestModuleStartTime="00:05.401"
+			timeWallClock="18:24:48"
+			time="00:05.401"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>ReportName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.424"
+			timeRelativeToTestModuleStartTime="00:05.424"
+			timeWallClock="18:24:48"
+			time="00:05.424"
+			level="Info"
+			category="User">
+			<message>
+				Project Directory Path: F:\Ranorex\Ranorex\OrdersApp\OrdersApp\bin\Debug
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\NewCustomTemplate1\WriteReportFileName.cs"
+				codeline="60"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.425"
+			timeRelativeToTestModuleStartTime="00:05.425"
+			timeWallClock="18:24:48"
+			time="00:05.425"
+			level="Info"
+			category="User">
+			<message>
+				Project Directory Path: F:\Ranorex\Ranorex\OrdersApp\OrdersApp\bin\Debug\ReportName.txt
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\NewCustomTemplate1\WriteReportFileName.cs"
+				codeline="67"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

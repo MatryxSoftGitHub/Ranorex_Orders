@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="OrdersApp"
+      id="410138d7-67bb-4ea9-b252-a540a8b802a5"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="OrdersApp"
+      id="410138d7-67bb-4ea9-b252-a540a8b802a5"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

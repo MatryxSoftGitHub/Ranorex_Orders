@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1d1371e5143feda"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="pavani"
+		rxversion="9.1.1.0"
+		host="MSDES09"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1680x1050"
+		timestamp="1/16/2020 2:38:21 PM"
+		timestampiso="2020-01-16T09:08:21"
+		endtime="1/16/2020 2:38:34 PM"
+		timeoutfactor="1"
+		module="SendMailModule">
+		<detail>
+			SendMailModule
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.317"
+			timeRelativeToTestModuleStartTime="00:05.317"
+			timeWallClock="14:38:26"
+			time="00:05.317"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>To, From, Subject, ServerHostname, ServerPort, Message
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.849"
+			timeRelativeToTestModuleStartTime="00:05.849"
+			timeWallClock="14:38:27"
+			time="00:05.849"
+			level="Info"
+			category="User">
+			<message>
+				FileName: F:\Ranorex\Ranorex\OrdersApp\OrdersApp\bin\Debug\Reports\SendMail.cs_20200116_143818.rxlog
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs"
+				codeline="118"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.893"
+			timeRelativeToTestModuleStartTime="00:05.893"
+			timeWallClock="14:38:27"
+			time="00:05.893"
+			level="Info"
+			category="User"
+			errimg="images_SendMail_d40b3cb5\SendMail_d40b3cb5_e1b71ef4_trace.jpg"
+			errthumb="images_SendMail_d40b3cb5\SendMail_d40b3cb5_e1b71ef4_trace_thumb.jpg">
+			<message>
+				smtp :System.Net.Mail.SmtpClient
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs"
+				codeline="132"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.371"
+			timeRelativeToTestModuleStartTime="00:12.371"
+			timeWallClock="14:38:34"
+			time="00:12.371"
+			level="Failure"
+			category="User"
+			errimg="images_SendMail_d40b3cb5\SendMail_d40b3cb5_fec4f8af_trace.jpg"
+			errthumb="images_SendMail_d40b3cb5\SendMail_d40b3cb5_fec4f8af_trace_thumb.jpg">
+			<message>
+				Mail Error: System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: &quot;JunkMail rejected - (MSDES09) [103.56.255.2]:28082 is in an RBL, see<br/>   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException&amp; exception)<br/>   at System.Net.Mail.SmtpClient.Send(MailMessage message)<br/>   at Ranorex.Modules.SendMailModule.SendMail() in f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs:line 133
+			</message>
+			<metainfo
+				codefile="f:\Ranorex\Ranorex\OrdersApp\OrdersApp\SendMail.cs"
+				codeline="139"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.372"
+			timeRelativeToTestModuleStartTime="00:12.372"
+			timeWallClock="14:38:34"
+			time="00:12.372"
+			level="Error"
+			category="Module"
+			errimg="images_SendMail_d40b3cb5\SendMail_d40b3cb5_fec4f8af_trace.jpg"
+			errthumb="images_SendMail_d40b3cb5\SendMail_d40b3cb5_fec4f8af_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
